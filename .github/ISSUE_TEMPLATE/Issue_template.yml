@@ -1,34 +1,20 @@
+---
 name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+about: Found a bug/issue with the bot? Use this template to file bug reports.
+title: "[BUG] "
+labels: 't: bug'
+assignees: ''
+
+---
+
+**Describe The Bug**
+Please give a clear, full description of the bug.
+
+**Steps To Reproduce**
+Please give a clear, full list of steps to reproduce the bug, if applicable. 
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Additional Information**
+Please include any additional information you feel could help explain the bug/problem and get it resolved.
