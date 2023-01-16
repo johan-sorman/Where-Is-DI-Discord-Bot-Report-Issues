@@ -1,8 +1,9 @@
 ---
 name: Bug Report
-about: Found a bug/issue with the bot? Use this template to file bug reports.
+about: Found a bug/issue with Ashita? Use this template to file bug reports.
 title: "[BUG] "
 labels: 't: bug'
+assignees: ''
 
 ---
 
